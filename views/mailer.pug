@@ -1,0 +1,17 @@
+extends layout
+
+block content
+  
+
+
+  h3 File Upload Form
+  .row
+    .col.s6
+      p All files will be uploaded to "/uploads" directory.
+      form(role='form', enctype='multipart/form-data', method='POST')
+       .row
+        .input-field.col.s12
+          input(type='file', name='myFile')
+          
+       .row
+         button.btn.light-blue.waves-effect.waves-light(type='submit') SEND EMAIL

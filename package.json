@@ -1,0 +1,25 @@
+{
+  "name": "bulkmail",
+  "version": "1.0.0",
+  "description": "A bulk emailer app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "email",
+    "gmail"
+  ],
+  "author": "udith victor",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cors": "^2.8.3",
+    "express": "^4.15.3",
+    "fast-csv": "^2.4.0",
+    "morgan": "^1.8.1",
+    "multer": "^1.3.0",
+    "nodemailer": "^4.0.1",
+    "pug": "^2.0.0-rc.1"
+  }
+}
